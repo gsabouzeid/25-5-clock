@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+button {
+  margin: 0 0.5em;
+}
+
+#timer-container {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+#control-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+#break-container,
+#session-container,
+#countdown-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: black 3px 3px 5px;
+}
+
+#countdown-container {
+  margin-top: 1em;
+}
